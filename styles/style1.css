@@ -1,0 +1,59 @@
+@charset "UTF-8";
+body {
+	background-image: url(../images/fade1.gif);
+	background-repeat: repeat-x;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+}
+h1 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 20px;
+	color: #09F;
+	border-top-width: 15px;
+	border-right-width: 15px;
+	border-bottom-width: 15px;
+	border-left-width: 13px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #92ED73;
+	border-right-color: #92ED73;
+	border-bottom-color: #92ED73;
+	border-left-color: #C5D49D;
+}
+h2 {
+	color: #09F;
+	border-left-width: 9px;
+	border-left-style: solid;
+	border-left-color: #6AB2D4;
+	font-size: 12px;
+}
+.titletxt {
+	color: #09F;
+	font-weight: bold;
+}
+.spacedtxt {
+	line-height: 18px;
+}
+.quote1 {
+	line-height: 18px;
+	font-weight: normal;
+	color: #333;
+}
+#content {
+}
+#footercell {
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	color: #666;
+}
+#page {
+	background-color: #FFF;
+}
+#topcell {
+	background-image: url(../images/top.gif);
+	background-repeat: no-repeat;
+	background-position: bottom;
+}

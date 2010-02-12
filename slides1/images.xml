@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Published with SlideShowPro for Lightroom 1.4.3-->
+<gallery galleryTitle="Gallery title" galleryDescription="Gallery description">
+    <album id="Album title" lgpath="album1/images/" tnpath="album1/thumb/" popuppath="album1/popup/" fspath="album1/fs/" title="Album title" description="Album description" tn="album1/thumb/fl__0001_Layer_2.jpg" audio="" audiocaption="">
+        <img src="fl__0001_Layer_2.jpg" title="" caption="" pause=""></img>
+        <img src="fl__0002_Layer_3.jpg" title="" caption="" pause=""></img>
+        <img src="fl__0003_2007_570_Leaders_Hillsborough_Parish__JPG.jpg.jpg" title="" caption="" pause=""></img>
+        <img src="fl__0004_2007_571_Youths_Hillsborough_Parish__JPG.jpg.jpg" title="" caption="" pause=""></img>
+        <img src="fl__0005_2007_572_JPG.jpg.jpg" title="" caption="" pause=""></img>
+        <img src="fl__0006_Layer_1.jpg" title="" caption="" pause=""></img>
+        <img src="fl__0007_7756252.jpg.jpg" title="" caption="" pause=""></img>
+    </album>
+</gallery>

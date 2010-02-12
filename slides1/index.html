@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Gallery title</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="Gallery description" /> 
+
+<!-- Published with SlideShowPro for Lightroom :: http://slideshowpro.net --> 
+
+<script type="text/javascript" src="js/swfobject.js"></script>
+<script type="text/javascript" src="js/swffit.js"></script> 
+
+<style type="text/css">	
+	body,html { 
+		background:#121212;
+		width:100%;
+		height:100%;
+	}
+</style>
+
+<script language="JavaScript">
+	<!-- 
+	// Permalinks option
+	function flashPutHref(href) { location.href = href; }
+	
+	// Expand browser option
+	var eB = false;
+	if (eB) {
+		window.moveTo(0,0);
+		window.resizeTo (screen.availWidth, screen.availHeight);
+	}
+	
+	// swffit sizing
+	var swf_pad = 20;
+	function initSwffit(w,h) {
+		// If you change name of the DIV the SWF is written at,
+		// change 'flashcontent' to the name of your DIV.
+		swffit.fit('flashcontent',w+swf_pad,h+swf_pad);
+	}
+	
+	// SWFObject embed
+	var flashvars = {
+		paramXMLPath: "param.xml",
+		initialURL: escape(document.location)
+	}
+	var params = {
+		bgcolor: "#121212",
+		allowfullscreen: "true"
+	}                
+	var attributes = {}
+	swfobject.embedSWF("loader.swf", "flashcontent", "100%", "100%", "9.0.0", "expressInstall.swf", flashvars, params, attributes);
+	/* below required for google chrome embed issue */
+	swffit.fit('flashcontent',0,0);
+	-->
+</script>
+
+</head>
+<body>
+			
+	<div id="flashcontent">
+		This SlideShowPro photo gallery requires the Flash Player plugin and a web browser with JavaScript enabled.
+	</div>	
+	
+</body>
+</html>

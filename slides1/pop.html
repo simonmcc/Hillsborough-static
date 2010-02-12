@@ -1,0 +1,72 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+<title>Popup</title>
+
+<script type="text/javascript" src="js/swfobject.js"></script>
+
+<style type="text/css">	
+	body,html {
+		margin:0;
+		padding:0;
+		background:#000;
+		height:100%;
+		width:100%;
+	}
+</style>
+
+<script language="JavaScript">
+	<!--
+	// IE7 detect
+	var s = navigator.userAgent.toLowerCase();
+	var isIE7 = /*@cc_on!@*/false && ( parseInt( s.match( /msie (\d+)/ )[1] ) >= 7 );
+	  
+	var pop_pad = 15;
+	var scr_w = screen.availWidth;
+	var scr_h = screen.availHeight;
+	
+	function resizeBrowser(w,h) {
+		// Resize popup window
+		var targ_w = w + (pop_pad*3);
+		var targ_h = h + (pop_pad*5);
+		// add a little more for IE7
+		if (isIE7) { targ_h += pop_pad; }
+		var new_w = targ_w;
+		var new_h = targ_h;     
+		if (scr_w < targ_w) {
+			new_w = scr_w;
+		} else if (scr_h < targ_h) {			
+			new_h = scr_h;
+		}
+		window.resizeTo(new_w,new_h);
+		centerBrowser(new_w,new_h);
+	}
+	
+	function centerBrowser(w,h) { 
+		var posX = (scr_w/2) - (w/2);
+		var posY = (scr_h/2) - (h/2); 
+		window.moveTo(posX,posY);
+	}
+	
+	// SWFObject embed
+	var flashvars = {}
+	var attributes = {}
+	var params = {
+		quality: "best",
+		bgcolor: "#000000"
+	}
+	swfobject.embedSWF("pop.swf", "flashcontent", "100%", "100%", "9.0.0", "expressInstall.swf", flashvars, params, attributes);                          
+		
+	-->
+</script>
+
+</head>
+<body>
+			
+	<div id="flashcontent">
+		This SlideShowPro photo gallery requires the Flash Player plugin and a web browser with JavaScript enabled.
+	</div>	
+	
+</body>
+</html>
